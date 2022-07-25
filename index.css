@@ -1,0 +1,44 @@
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+}
+td, th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.button{
+    cursor: pointer;
+    background-color: aqua;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+label.validation-error{
+    color:   red;
+    
+}
+
+.hide{
+    display:none;
+}
+.main-heading{
+text-align: center;
+}
+.main-table{
+    padding-left: 400px;
+}

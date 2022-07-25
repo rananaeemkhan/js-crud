@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="main-heading">javascript form & Vlidation</h1>
+    <div class="main-table">
+ <table>
+    <tr>
+        <td>
+            <form action="javascript:void(0);" method="POST" id="myform" onsubmit="event.preventDefault(); onFormSubmit();" autocomplete="off">
+                <h1>javascript</h1>
+                <div>
+                    <label class="validation-error hide" id="mynameValidationError">This Field is Required</label><br>
+                    <label for="name">Full Name*</label>
+                    <input type="text" name="myname" id="myname" placeholder="Full Name"><br><br>
+                </div>
+                <div>
+                    <label class="validation-error hide" id="myclassValidationError">This Field is Required</label><br>
+                    <label for="class">Class*</label>
+                    <input type="text" name="myclass" id="myclass" placeholder="enter your class"><br><br>
+                </div>
+               <div>
+                <label class="validation-error hide" id="mynumberValidationError">This Field is Required</label><br>
+                    <label for="name">roll-number*</roll-number></label>
+                    <input type="number" name="mynumber" id="mynumber" placeholder="xxxxxxxxxx"><br><br>
+               </div>
+               <div class="form-action-button">
+                  <input type="submit" value="save" class="button">
+                </div>
+            </form>
+        </td>
+
+        <td>
+            <table class="list" id="studentlist">
+               <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Roll Number</th>
+                        <th>Action</th>
+                    </tr>
+               </thead>
+               <tbody>
+
+               </tbody>
+            </table>
+        </td>
+    </tr>
+ </table>
+ </div>
+    <script src="script.js"></script>
+</body>
+</html>
